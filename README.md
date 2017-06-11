@@ -1,2 +1,2 @@
-# MyPython-Archives
- Python Codes for learning Basic Syntax , OOPs and other concepts
+# Python-Practice-Codes
+Codes for python basic
