@@ -1,0 +1,27 @@
+File Menu
+New window : Create a new editing window. Shortcut key : Ctrl+N
+Open : Open an existing file. Shortcut key : Ctrl+O
+Open module : Open an existing module. Shortcut key : Alt+M
+Class browser : Show classes and methods in current file. shortcut key : Alt+C
+Save : Save current window to the associated file. Shortcut key : Ctrl+S
+Save As : Save current window to new file, which becomes the associated file. Shortcut key : Ctrl+shift+S
+Save Copy As : Save current window to different file without changing the associated file. Shortcut key : Alt+shift+S
+Print window. Shortcut key : Ctrl+P
+Close : Close current window (asks to save if unsaved). Shortcut key : Alt+F4
+Exit : Close all windows and quit IDLE (asks to save if unsaved). Shortcut key : Ctrl+Q
+Edit Menu
+Undo : Undo last change to current window (max 1000 changes). Shortcut key : Ctrl+Z
+Redo : Redo last undone change to current window. Shortcut key : Ctrl+shift+Z
+Cut : Copy selection into system-wide clipboard; then delete selection. Shortcut key : Ctrl+X
+Copy : Copy selection into system-wide clipboard. Shortcut key : Ctrl+C
+Paste : Insert system-wide clipboard into window. Shortcut key : Ctrl+V
+Select All: All Select the entire contents of the edit buffer. Shortcut key : Ctrl+A
+Find... : Open a search dialog box with many options. Shortcut key : Ctrl+F
+Find again : Repeat last search. Shortcut key : Ctrl+G
+Find selection : Search for the string in the selection. Shortcut key : Ctrl+F3
+Find in Files... : Open a search dialog box for searching files. Shortcut key : Alt+F3
+Replace...: Open a search-and-replace dialog box. Shortcut key : Ctrl+H
+Go to line : Ask for a line number and show that line. Shortcut key : Alt+G
+Show call tip. Shortcut key : Ctrl+backslash
+Show surrounding parens. Shortcut key : Ctrl+0
+Show completions. Shortcut key : Ctrl+space
