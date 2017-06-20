@@ -45,13 +45,42 @@ class LinkedList:
 
           last.next=new_node
 
+      #deleting a value
+    def deleteNode(self,key):
+
+        #storing head in temp
+        temp=self.head
+
+        #if head contain the value delete the head 
+        if(temp is not None):
+            if(temp.data == key):
+                self.head=temp.next
+                temp=None
+
+
+        while(temp is not None):
+            if(temp.data == key):
+                break
+
+            prev=temp  #storing value of previous pointer
+            temp=temp.next
+
+        #if key not present in LinkedList
+        if(temp is None):
+            return
+
+        prev.next=temp.next
+        temp=None #deleting the node
+    
     def printList(self):
           temp = self.head
           while(temp):
-              print(temp.data)
+              print(temp.data,end=" ")
               temp=temp.next
 
 
+#MAIN METHOD
+              
 if __name__ == "__main__":
      llist = LinkedList()
      llist.append(6)
@@ -71,6 +100,10 @@ if __name__ == "__main__":
      print('Created linked list is:'),
      llist.printList()
         
+     llist.deleteNode(1);
+
+     print('\nLinked list after deletion')
      
+     llist.printList();
     
         
